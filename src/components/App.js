@@ -10,8 +10,9 @@ import Movies from "./Movies";
 
 function App() {
   return (
-  <div>
-    <NavBar />
+  
+    <div className="navbar">
+      <NavBar />
       <Switch>
         <Route path="/movies">
           <Movies />
@@ -22,11 +23,12 @@ function App() {
         <Route path="/directors">
           <Directors />
         </Route>
-        <Route exact path="/">
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
-  </div>
+    </div>
+  
   );
 }
 

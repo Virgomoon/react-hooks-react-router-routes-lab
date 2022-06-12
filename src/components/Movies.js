@@ -1,9 +1,6 @@
 import React from "react";
 import { movies } from "../data";
 
-console.log(movies)
-console.log(movies[0].title)
-
 function Movies() {
   return (
   <div>
@@ -24,6 +21,8 @@ function Movies() {
         <li>{movies[1].genres[0]}</li>
         <li>{movies[1].genres[1]}</li>
         <li>{movies[1].genres[2]}</li>
+        <li>{movies[1].genres[3]}</li>
+        <li>{movies[1].genres[4]}</li>
       </ul>
     </div>
     <div>
@@ -33,6 +32,8 @@ function Movies() {
         <li>{movies[2].genres[0]}</li>
         <li>{movies[2].genres[1]}</li>
         <li>{movies[2].genres[2]}</li>
+        <li>{movies[2].genres[3]}</li>
+        <li>{movies[2].genres[4]}</li>
       </ul>
     </div>
   </div>
